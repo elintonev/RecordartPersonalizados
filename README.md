@@ -1,7 +1,7 @@
 # RECORDART PERSONALIZADOS
 
 
-<img src="./assets/imagem-exemplo.png" alt="exemplo imagem">
+<img src="Assets/imagem-exemplo.png" alt="exemplo imagem">
 
 > Site com o catálogo da loja Recordart Personalizados.
 
