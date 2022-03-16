@@ -14,292 +14,162 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (min-width: 784px) and (max-width: 1360px) {
-    /* CSS DO HEADER*/
-    .main-header {
-        width: 900px;
-        text-align: center;
-        padding: 10px;
-        margin: 0 auto;
-    }
-    .main-header img {
-        width: 35%;
-        display: inline-block;
-        border-radius: 20px;
-        box-shadow: 0 5px 10px #000;
-    }
-    .first-header-list-li1,
-    .first-header-list-li2 {
-        display: inline-block;
-        position: absolute;
-        left: 7%;
-        top: 5%;
-        font-size: 1.7em;
-        text-shadow: 5px 8px 10px #f017a7d8;
-    }
-    .second-header-list-li3,
-    .second-header-list-li4 {
-        display: inline-block;
-        position: absolute;
-        right: 8%;
-        top: 5%;
-        font-size: 1.7em;
-        text-shadow: 5px 8px 10px #f017a7d8;
-    }
-    .first-header-list-li2 {
-        left: 20%;
-    }
-    .second-header-list-li4 {
-        right: 21%;
-    }
-    .first-header-list-li1 a:hover,
-    .first-header-list-li2 a:hover,
-    .second-header-list-li3 a:hover,
-    .second-header-list-li4 a:hover {
-        font-size: 1.3em;
-        font-weight: bold;
-        color: #f565c5;
-        text-shadow: 5px 8px 10px rgb(90, 88, 88);
-    }
-    /* ---------- CSS DO MAIN - IMAGEM DA FACHADA ----------------*/
-    .imagem-fachada {
-        display: block;
-        width: 90%;
-        height: 750px;
-        box-shadow: 0 2px 2em #000;
-        margin: 25px auto;
-    }
-    /* ---------- CSS DO MAIN - QUEM SOMOS ----------------*/
-    .section-quem-somos {
-        background-color: #ffdada;
-    }
-    .section-quem-somos h2 {
-        text-align: center;
-        margin: 105px auto 45px auto;
-        font-size: 50px;
-        text-shadow: 5px 8px 10px #f142b7d8;
-    }
-    .section-quem-somos p {
-        text-align: justify;
-        font-size: 24px;
-        line-height: 35px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    /* ---------- CSS DO MAIN - PRODUTOS ----------------*/
-    .section-produtos {
-        background-color: #ffdada;
-        margin: 0 auto;
-    }
-    .titulo-produtos {
-        text-align: center;
-        margin: 105px 0 105px 0;
-        font-size: 50px;
-        text-shadow: 5px 8px 10px #f142b7d8;
-    }
-    .section-produtos ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .section-produtos li {
-        display: inline-block;
-        width: 30%;
-        height: 17em;
-        border-radius: 50%;
-        opacity: 0.7;
-        margin: 25px 85px 85px 85px;
-    }
-    .img-lista-produtos {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-    .img-lista-produtos:hover {
-        width: 110%;
-        height: 110%;
-        opacity: 0.5;
-        transition: 250ms;
-        border: 3px solid #FF99aa;
-    }
-    .section-produtos li a {
-        font-family: 'Dancing Script', cursive;
-        font-size: 1.8em;
-        font-weight: bold;
-        color: #f017a7d8;
-        -webkit-text-stroke-width: 1.3px;
-        -webkit-text-stroke-color: #000;
-    }
-    /* ---------- CSS DO FOOTER ----------------*/
-    footer .logo_contato {
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 75px;
-    }
-    .footer-logo {
-        width: 25%;
-    }
-    .link-footer img {
-        width: 3%;
-    }
-    footer h3 {
-        text-align: center;
-        font-size: 24px;
-    }
-    .endereco_mapa {
-        width: auto;
-    }
-    .endereco_mapa iframe {
-        display: block;
-        margin: 10px auto 10px auto;
-        width: 75%;
-        height: 250px;
-    }
+
+/* CSS DO HEADER*/
+
+.main-header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-@media only screen and (min-width: 1920px) {
-    /* CSS DO HEADER*/
-    .main-header {
-        width: 1024px;
-        text-align: center;
-        padding: 10px;
-        margin: 0 auto;
-    }
-    .main-header img {
-        width: 50%;
-        display: inline-block;
-        border-radius: 20px;
-        box-shadow: 0 5px 10px #000;
-    }
-    .first-header-list-li1,
-    .first-header-list-li2 {
-        display: inline-block;
-        position: absolute;
-        left: 7%;
-        top: 5%;
-        font-size: 3em;
-        text-shadow: 5px 8px 10px #f017a7d8;
-    }
-    .second-header-list-li3,
-    .second-header-list-li4 {
-        display: inline-block;
-        position: absolute;
-        right: 7%;
-        top: 5%;
-        font-size: 3em;
-        text-shadow: 5px 8px 10px #f017a7d8;
-    }
-    .first-header-list-li2 {
-        left: 21%;
-    }
-    .second-header-list-li4 {
-        right: 21%;
-    }
-    .first-header-list-li1 a:hover,
-    .first-header-list-li2 a:hover,
-    .second-header-list-li3 a:hover,
-    .second-header-list-li4 a:hover {
-        font-size: 60px;
-        font-weight: bold;
-        color: #f565c5;
-        text-shadow: 5px 8px 10px rgb(90, 88, 88);
-    }
-    /* ---------- CSS DO MAIN - IMAGEM DA FACHADA ----------------*/
-    .imagem-fachada {
-        display: block;
-        width: 90%;
-        height: 750px;
-        box-shadow: 20px 20px 3em #000;
-        margin: 25px auto;
-        border-radius: 25px;
-    }
-    /* ---------- CSS DO MAIN - QUEM SOMOS ----------------*/
-    .section-quem-somos {
-        background-color: #ffdada;
-    }
-    .section-quem-somos h2 {
-        text-align: center;
-        margin: 105px auto 45px auto;
-        font-size: 50px;
-        text-shadow: 5px 8px 10px #f142b7d8;
-    }
-    .section-quem-somos p {
-        text-align: justify;
-        font-size: 24px;
-        line-height: 35px;
-        margin-left: 5%;
-        margin-right: 5%;
-    }
-    /* ---------- CSS DO MAIN - PRODUTOS ----------------*/
-    .section-produtos {
-        background-color: #ffdada;
-        margin: 0 auto;
-    }
-    .titulo-produtos {
-        text-align: center;
-        margin: 105px 0 105px 0;
-        font-size: 50px;
-        text-shadow: 5px 8px 10px #f142b7d8;
-    }
-    .section-produtos ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .section-produtos li {
-        display: inline-block;
-        width: 21%;
-        height: 20em;
-        border-radius: 50%;
-        opacity: 0.7;
-        margin-right: 85px;
-        margin-bottom: 85px;
-    }
-    .img-lista-produtos {
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-    .img-lista-produtos:hover {
-        width: 112%;
-        height: 112%;
-        opacity: 0.5;
-        transition: 250ms;
-        border: 5px solid #FF99aa;
-    }
-    .section-produtos li a {
-        font-family: 'Dancing Script', cursive;
-        font-size: 2.3em;
-        font-weight: bold;
-        color: #f017a7d8;
-        -webkit-text-stroke-width: 1.3px;
-        -webkit-text-stroke-color: #000;
-        text-align: center;
-    }
-    /* ---------- CSS DO FOOTER ----------------*/
-    footer .logo_contato {
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 45px;
-    }
-    .footer-logo {
-        width: 20%;
-    }
-    .link-footer img {
-        width: 2%;
-    }
-    footer h3 {
-        text-align: center;
-        font-size: 24px;
-        font-style: normal;
-    }
-    .endereco_mapa {
-        width: 100%;
-    }
-    .endereco_mapa iframe {
-        display: block;
-        margin: 10px auto;
-        width: 75%;
-        height: 250px;
-    }
+.main-header img {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px #000;
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+.first-header-list-li {
+    font-size: 2.7em;
+    text-shadow: 5px 8px 10px #f017a7d8;
+    list-style-type: none;
+}
+
+.first-header-list-li a:hover {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f565c5;
+    text-shadow: 5px 8px 10px rgb(90, 88, 88);
+}
+
+
+/* ---------- CSS DO MAIN - IMAGEM DA FACHADA ----------------*/
+
+.imagem-fachada {
+    display: flex;
+    justify-content: space-around;
+    height: 45em;
+}
+
+.imagem-fachada img {
+    width: 75%;
+    margin-top: 3em;
+    box-shadow: 20px 20px 3em #000;
+    border-radius: 25px;
+}
+
+
+/* ---------- CSS DO MAIN - QUEM SOMOS ----------------*/
+
+.section-quem-somos {
+    background-color: #ffdada;
+}
+
+.section-quem-somos h2 {
+    text-align: center;
+    margin: 105px auto 45px auto;
+    font-size: 50px;
+    text-shadow: 5px 8px 10px #f142b7d8;
+}
+
+.section-quem-somos p {
+    text-align: justify;
+    font-size: 24px;
+    line-height: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+/* ---------- CSS DO MAIN - PRODUTOS ----------------*/
+
+.section-produtos {
+    background-color: #ffdada;
+    margin: 0 auto;
+}
+
+.titulo-produtos {
+    text-align: center;
+    margin: 105px 0 105px 0;
+    font-size: 50px;
+    text-shadow: 5px 8px 10px #f142b7d8;
+}
+
+.section-produtos ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+}
+
+.section-produtos li {
+    width: 19em;
+    height: 19em;
+    border-radius: 50%;
+    opacity: 0.7;
+    margin-bottom: 125px;
+    margin-left: 2.7em;
+}
+
+.img-lista-produtos {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.img-lista-produtos:hover {
+    width: 112%;
+    height: 112%;
+    opacity: 0.5;
+    transition: 250ms;
+    border: 5px solid #FF99aa;
+}
+
+.section-produtos li a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #f017a7d8;
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000;
+    text-align: center;
+}
+
+
+/* ---------- CSS DO FOOTER ----------------*/
+
+footer .logo_contato {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.footer-logo {
+    width: 20%;
+}
+
+.link-footer img {
+    width: 2%;
+}
+
+footer h3 {
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.endereco_mapa {
+    width: 100%;
+}
+
+.endereco_mapa iframe {
+    display: block;
+    margin: 10px auto;
+    width: 75%;
+    height: 250px;
 }
 
 
