@@ -17,9 +17,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Publicar e entregar
 
 
-## 🤝 Colaboradores
+## 🤝 Projeto realizado por mim:
 
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
   <tr>
